@@ -1,0 +1,7 @@
+# Ignored files for git repository
+
+*.iml
+*.xml
+*.class
+*.jar
+.idea/
