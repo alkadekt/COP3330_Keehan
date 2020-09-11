@@ -1,9 +1,5 @@
 //This class encrypts a 4 digit user input
-
-
 import java.util.Scanner; //Scanner for user input
-import java.util.Arrays;
-import java.util.List;
 
 public class Encrypter {
 
