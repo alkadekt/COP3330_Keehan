@@ -86,9 +86,9 @@ class Pyramid extends Shape3D {
     @Override
     public String getName() { return "pyramid"; }
     @Override
-    public double getArea() { return (input1 * input2) + input1*Math.sqrt( (input2/2)*(input2/2) + input3*input3 ) + input2*Math.sqrt( (input1/2)*(input1/2) + input3*input3 ); }
+    public double getArea() { return (input1 * input2) + input1 * Math.sqrt( (input2/2)*(input2/2) + input3*input3 ) + input2 * Math.sqrt( (input1/2)*(input1/2) + input3*input3 ); }
     @Override
-    public double getVolume() { return input1 * input1 * input1 / 3; }
+    public double getVolume() { return input1 * input2 * input3 / 3; }
 }
 //SPHERE
 class Sphere extends Shape3D {
