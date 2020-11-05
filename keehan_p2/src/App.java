@@ -70,5 +70,4 @@ public class App {
         double average = total/Array.size();
         System.out.printf("Average of all users' bmi values is %f%n", average);
     }
-
 }
