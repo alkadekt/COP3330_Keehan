@@ -181,8 +181,8 @@ class TaskListTest {
         TaskItem task = new TaskItem("title","","2020-12-12");
         TaskList tasks = new TaskList();
         tasks.add(task);
-        String filename = "thisISIT";
-        File file = new File(filename);
+        //String filename = "thisISIT";
+        //File file = new File(filename);
         //App.writeTaskItems(filename, tasks);
         //App.readTaskItems(filename);
         //This test took too long to run
